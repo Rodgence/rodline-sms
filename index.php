@@ -134,11 +134,11 @@
               <div class="icon">
                 <i class="bi bi-credit-card-2-front" style="color: #df1529;"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="register.php" class="stretched-link">
                 <h3>Reminder Notifications</h3>
               </a>
               <p>Holiday greetings and appreciation messages. You can send reminders to your customers about their upcoming appointments.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <a href="register.php" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -147,11 +147,11 @@
               <div class="icon">
                 <i class="bi bi-globe" style="color: #6610f2;"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="register.php" class="stretched-link">
                 <h3>Urgent Notifications</h3>
               </a>
               <p>Notify your customers about any urgent matters with RodLine SMS. </p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <a href="register.php" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -160,11 +160,11 @@
               <div class="icon">
                 <i class="bi bi-clock" style="color: #f3268c;"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="register.php" class="stretched-link">
                 <h3>New Arrival Notifications</h3>
               </a>
               <p> Notify your customers about new arrivals with RodLine SMS. </p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <a href="register.php" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
