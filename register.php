@@ -43,6 +43,21 @@
       <div class="sent-message">Your information has been submitted. Thank you!</div>
 
       <button type="submit">Register</button>
+
+      <style>
+        button{
+          width: 100%;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          background-color: #6144f2;
+          color: #ffffff;
+          border: none;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          border-radius: 10px;
+          font-size: 16px;
+          }
+      </style>
     </div>
 
   </div>
