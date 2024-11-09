@@ -14,7 +14,7 @@
     <div class="container">
   <div class="row justify-content-center">
     <div class="col-md-6">
-    <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+    <form action="mail.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
   <div class="row gy-4">
 
     <div class="col-md-6">
@@ -27,10 +27,6 @@
 
     <div class="col-md-12">
       <input type="email" name="email" class="form-control" placeholder="Email" required="">
-    </div>
-
-    <div class="col-md-3">
-      <input type="text" name="country_code" class="form-control" placeholder="255" value="255" readonly>
     </div>
 
     <div class="col-md-9">
@@ -46,7 +42,7 @@
       <div class="error-message"></div>
       <div class="sent-message">Your information has been submitted. Thank you!</div>
 
-      <button type="submit">Submit</button>
+      <button type="submit">Register</button>
     </div>
 
   </div>
