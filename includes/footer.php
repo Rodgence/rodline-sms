@@ -3,8 +3,8 @@
 <div class="container footer-top">
   <div class="row gy-4">
     <div class="col-lg-5 col-md-12 footer-about">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <span class="sitename">RodLine SMS</span>
+      <a href="index.php" class="logo d-flex align-items-center">
+        <img src="./assets/img/logo.png" alt="">
       </a>
       <p>Welcome to bulk sms services, You can automate your business with auro reply sms from us. We offer instant support to make sure you make it. Lets get started today, Life is good</p>
       <div class="social-links d-flex mt-4">
