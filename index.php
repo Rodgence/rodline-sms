@@ -10,10 +10,10 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-md-start" data-aos="fade-up">
-            <h2><b></b>CREATING WEBSITES THAT MAKE YOU STOP &amp; STARE</h2>b></h2>
-            <p>We are team of talented designers making websites with Bootstrap</p>
+            <h2><b></b>Send Unlimited Bulk SMS and Promotions to Potential Customers</h2></h2>
+            <p>The task is to connect your business with potential customers to keep updated with latest promotions and offers from you. Traslate to swahili</p>
             <div class="d-flex mt-4 justify-content-center justify-content-md-start">
-              <a href="#about" class="cta-btn">Get Started</a>
+              <a href="register.php" class="cta-btn">Register Now</a>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
@@ -39,28 +39,35 @@
           <div class="col-lg-6 ps-lg-4 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <h3>About Us</h3>
             <p>
-              Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.
+            At RodLineSMS, we specialize in providing top-quality bulk SMS solutions tailored to meet the communication needs of modern businesses. We understand the power of direct, timely, and impactful messaging, which is why we strive to offer an efficient platform for sending unlimited promotional and transactional SMS to your target audience.
             </p>
             <ul>
               <li>
                 <i class="bi bi-diagram-3"></i>
                 <div>
-                  <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                  <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                  <h5>Business Promotions and Exclusive Offers</h5>
+                  <p>Sending business advertisements for promotions and special offers.</p>
                 </div>
               </li>
               <li>
                 <i class="bi bi-fullscreen-exit"></i>
                 <div>
-                  <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                  <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
+                  <h5>Event Invitations</h5>
+                  <p>Invitations for events such as weddings, birthday parties, and meetings.</p>
                 </div>
               </li>
               <li>
                 <i class="bi bi-broadcast"></i>
                 <div>
-                  <h5>Voluptatem et qui exercitationem</h5>
-                  <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam</p>
+                  <h5>Urgent Notifications</h5>
+                  <p>Quick updates for employees and group members.</p>
+                </div>
+              </li>
+              <li>
+                <i class="bi bi-broadcast"></i>
+                <div>
+                  <h5>Reminder Notifications</h5>
+                  <p>Holiday greetings and appreciation messages.</p>
                 </div>
               </li>
             </ul>
