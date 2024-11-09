@@ -18,7 +18,7 @@
     <div class="col-lg-2 col-6 footer-links">
       <h4>Useful Links</h4>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="./register.php">Register</a></li>
         <li><a href="https://login.easyapps.co/#!/">Login</a></li>
         <li><a href="#">Terms of service</a></li>
@@ -29,9 +29,9 @@
     <div class="col-lg-2 col-6 footer-links">
       <h4>Our Services</h4>
       <ul>
-        <li><a href="#">Bulk SMS</a></li>
-        <li><a href="#">SMS APIs</a></li>
-        <li><a href="#">WordPress Plugin</a></li>
+        <li><a href="./register.php">Bulk SMS</a></li>
+        <li><a href="https://docs.beem.africa/">SMS APIs</a></li>
+        <li><a href="./assets/rodlinesms.zip">WordPress Plugin</a></li>
         <!-- <li><a href="#">Marketing</a></li>
         <li><a href="#">Graphic Design</a></li> -->
       </ul>
