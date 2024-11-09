@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message_content = htmlspecialchars($_POST['message']);
 
     // Construct the message with user info
-    $message = "New Registration:\n";
+    $message = "New SMS Customer:\n";
     $message .= "First Name: $first_name\n";
     $message .= "Last Name: $last_name\n";
     $message .= "Email: $email\n";
@@ -56,17 +56,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $response = curl_exec($ch);
 
     // Handle cURL error
-    if ($response === FALSE) {
-        echo "Sent: " . curl_error($ch);
-        die();
-    }
+    // if ($response === FALSE) {
+    //     echo "Sent: " . curl_error($ch);
+    //     die();
+    // }
 
     // Decode the JSON response
     $response_data = json_decode($response, true);
 
     // Check if the response contains success info
     if (is_array($response_data) && isset($response_data['successful']) && $response_data['successful']) {
-        echo "Your information has been sent successfully!";
+        echo "Taarifa zako Zimepokelewa !";
     } else {
         // If the response indicates failure, show detailed error message
         echo "There was an issue sending your message. Response: ";

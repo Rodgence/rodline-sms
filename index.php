@@ -99,9 +99,9 @@
                 <i class="bi bi-cash-stack" style="color: #0dcaf0;"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Nesciunt Mete</h3>
+                <h3>Business Promotions and Exclusive Offers</h3>
               </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+              <p>Sending business advertisements for promotions and special offers.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -111,9 +111,9 @@
                 <i class="bi bi-calendar4-week" style="color: #fd7e14;"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Eosle Commodi</h3>
+                <h3>Website Order Automation</h3>
               </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              <p>With RodLine SMS you can automate your website orders and send order confirmations to your customers.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -123,9 +123,9 @@
                 <i class="bi bi-chat-text" style="color: #20c997;"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Ledo Markt</h3>
+                <h3>Event Invitations</h3>
               </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              <p>If you have an event, you can send invitations to your guests with RodLine SMS.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -135,9 +135,9 @@
                 <i class="bi bi-credit-card-2-front" style="color: #df1529;"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Asperiores Commodit</h3>
+                <h3>Reminder Notifications</h3>
               </a>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+              <p>Holiday greetings and appreciation messages. You can send reminders to your customers about their upcoming appointments.</p>
               <a href="service-details.html" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -148,9 +148,9 @@
                 <i class="bi bi-globe" style="color: #6610f2;"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Velit Doloremque</h3>
+                <h3>Urgent Notifications</h3>
               </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+              <p>Notify your customers about any urgent matters with RodLine SMS. </p>
               <a href="service-details.html" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -161,9 +161,9 @@
                 <i class="bi bi-clock" style="color: #f3268c;"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Dolori Architecto</h3>
+                <h3>New Arrival Notifications</h3>
               </a>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+              <p> Notify your customers about new arrivals with RodLine SMS. </p>
               <a href="service-details.html" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
