@@ -2,77 +2,42 @@
  include("includes/header.php");
 ?>
 
-<main class="main">
-  <!-- Starter Section -->
-  <section id="starter-section" class="starter-section section">
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Register for Bulk SMS</h2>
-      <p>Register Now to Send Bulk SMS</p>
-    </div><!-- End Section Title -->
-
-    <div class="container">
-  <div class="row justify-content-center">
-    <div class="col-md-6">
-    <form action="mail.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-  <div class="row gy-4">
-
-    <div class="col-md-6">
-      <input type="text" name="first_name" class="form-control" placeholder="First Name" required="">
-    </div>
-
-    <div class="col-md-6">
-      <input type="text" name="last_name" class="form-control" placeholder="Last Name" required="">
-    </div>
-
-    <div class="col-md-12">
-      <input type="email" name="email" class="form-control" placeholder="Email" required="">
-    </div>
-
-    <div class="col-md-9">
-      <input type="text" name="phone_number" class="form-control" placeholder="Phone number" required="">
-    </div>
-
-    <div class="col-md-12">
-      <input type="password" name="password" class="form-control" placeholder="Password" required="">
-    </div>
-
-    <div class="col-md-12 text-center">
-      <div class="loading">Loading</div>
-      <div class="error-message"></div>
-      <div class="sent-message">Your information has been submitted. Thank you!</div>
-
-      <button type="submit">Register</button>
-
-      <style>
-        button{
-          width: 100%;
-          padding-top: 5px;
-          padding-bottom: 5px;
-          background-color: #6144f2;
-          color: #ffffff;
-          border: none;
-          cursor: pointer;
-          transition: background-color 0.3s ease;
-          border-radius: 10px;
-          font-size: 16px;
-          }
-
-          button:hover{
-            background-color: #f23700;
-            color: #ffffff;
-          }
-      </style>
-    </div>
-
-  </div>
-</form>
-
-    </div>
-  </div>
-</div>
-
-
+<body class="bg-light">
+    <section class="container mt-3">
+        <div class="row justify-content-md-center">
+            <form action="mail.php" method="POST" class="col-md-6 col-sm-12 bg-light p-4 rounded shadow">
+                <div class="col-12 text-center">
+                    <h3 class="text-primary"><strong>Register for Bulk SMS</strong></h3>
+                </div>
+                <div class="mb-2">
+                    <label for="fullname" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" name="fullname" id="fullname">
+                </div>
+                <div class="mb-2">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" name="email" id="email">
+                </div>
+                <div class="mb-2">
+                    <label for="phone" class="form-label">phone Number</label>
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="+255">
+                </div>
+                <div class="mb-2">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="text" class="form-control" name="password" id="address">
+                </div>
+                <div class="mb-2">
+                    <label for="confirm_password" class="form-label">Confirm-Password</label>
+                    <input type="text" class="form-control" id="location" name="confirm_password">
+                </div>
+                
+                <div class="text-center mt-3">
+                    <button type="submit" class="btn btn-primary btn-rounded w-75">Register Now</button>
+                </div>
+                
+            </form>
+        </div>
+    </section>
+</body>
  <?php
  include("includes/footer.php");
  ?>
