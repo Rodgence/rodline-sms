@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $address = $_POST['password'];
     $location = $_POST['confirm_password'];
 
-    // Construct the message
+    // Construct the messages
     $message = "New SMS Customer:\nName: $fullname\nEmail: $email\nPhone: $phone\nAddress: $address\nLocation: $location";
 
     // Prepare the payload for the SMS
@@ -66,9 +66,9 @@ echo '<div class="row">';
 echo '<div class="col-md-6">';
 if (isset($response_data['successful']) && $response_data['successful'] === true) {
     echo '<div class="alert alert-success" role="alert">
-            Asante kwa kujisajiri na RodLine SMS!, Account yako Itakua tayari ndani ya dk 5. login kwenye dashboard ya Rodline SMS kukamirisha uajiri wako. Asante.
+            Asante kwa kujisajiri na RodLine SMS!, Account yako Itakua tayari ndani ya dk 5. Login kwenye dashboard ya Rodline SMS kukamirisha uajiri wako. Asante.
 
-            <a href="login.php">Login here</a>
+            <a href="https://login.easyapps.co/#!/">Login here</a>
           </div>';
 } else {
     echo '<div class="alert alert-danger" role="alert">
@@ -84,5 +84,46 @@ echo '</div>'; // Close container
     
 }
 
+
+// inset into a database
+
+$host = 'localhost';
+$username = 'rodlineh_rodlinesms';
+$password = '@200r320KK';
+$dbname = 'rodlineh_rodlinesms';
+
+// Create a connection
+$conn = mysqli_connect($host, $username, $password, $dbname);
+
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+// Check if the form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Get the form data
+    $fullname = mysqli_real_escape_string($conn, $_POST['fullname']);
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $phone = mysqli_real_escape_string($conn, $_POST['phone']);
+    $password = mysqli_real_escape_string($conn, $_POST['password']);
+    $confirm_password = mysqli_real_escape_string($conn, $_POST['confirm_password']);
+
+  
+
+    // Insert data into the database
+    $sql = "INSERT INTO bulk_sms_registration (fullname, email, phone, password, confirm_password)
+            VALUES ('$fullname', '$email', '$phone', '$password', '$confirm_password')";
+
+    $result = mysqli_query($conn, $sql);
+
+    // Close the database connection
+    mysqli_close($conn);
+}
+
+
+
 include("includes/footer.php");
+
 ?>
+
