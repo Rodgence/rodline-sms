@@ -11,23 +11,23 @@
                 </div>
                 <div class="mb-2">
                     <label for="fullname" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" name="fullname" id="fullname">
+                    <input type="text" class="form-control" name="fullname" id="fullname" required>
                 </div>
                 <div class="mb-2">
                     <label for="email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" name="email" id="email">
+                    <input type="email" class="form-control" name="email" id="email" required>
                 </div>
                 <div class="mb-2">
                     <label for="phone" class="form-label">phone Number</label>
-                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="+255">
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="+255" required>
                 </div>
                 <div class="mb-2">
                     <label for="password" class="form-label">Password</label>
-                    <input type="text" class="form-control" name="password" id="address">
+                    <input type="text" class="form-control" name="password" id="address" required>
                 </div>
                 <div class="mb-2">
                     <label for="confirm_password" class="form-label">Confirm-Password</label>
-                    <input type="text" class="form-control" id="location" name="confirm_password">
+                    <input type="text" class="form-control" id="location" name="confirm_password" required>
                 </div>
                 
                 <div class="text-center mt-3">
