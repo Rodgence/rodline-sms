@@ -98,7 +98,7 @@
               <div class="icon">
                 <i class="bi bi-cash-stack" style="color: #0dcaf0;"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="#" class="stretched-link">
                 <h3>Business Promotions and Exclusive Offers</h3>
               </a>
               <p>Sending business advertisements for promotions and special offers.</p>
@@ -110,7 +110,7 @@
               <div class="icon">
                 <i class="bi bi-calendar4-week" style="color: #fd7e14;"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="#" class="stretched-link">
                 <h3>Website Order Automation</h3>
               </a>
               <p>With RodLine SMS you can automate your website orders and send order confirmations to your customers.</p>
@@ -122,7 +122,7 @@
               <div class="icon">
                 <i class="bi bi-chat-text" style="color: #20c997;"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="#" class="stretched-link">
                 <h3>Event Invitations</h3>
               </a>
               <p>If you have an event, you can send invitations to your guests with RodLine SMS.</p>
