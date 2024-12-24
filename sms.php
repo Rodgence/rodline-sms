@@ -11,7 +11,7 @@
     <div class="container mt-5">
         <div class="card shadow">
             <div class="card-header bg-primary text-white">
-                <h4 class="mb-0">Send SMS via Beem Africa</h4>
+                <h4 class="mb-0">Send SMS On RodLine </h4>
             </div>
             <div class="card-body">
                 <form action="send_sms.php" method="post">
@@ -25,7 +25,7 @@
                         <label for="message" class="form-label">Message</label>
                         <textarea id="message" name="message" rows="5" class="form-control" placeholder="Enter your message here" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-success w-100">Send SMS</button>
+                    <button type="submit" class="btn btn-success w-100">Send SMS Now</button>
                 </form>
             </div>
         </div>
