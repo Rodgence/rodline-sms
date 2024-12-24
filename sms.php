@@ -72,7 +72,33 @@ foreach ($orders as $order) {
     }
 }
 
-// Output phone numbers
-echo "Phone Numbers: " . implode(', ', $phone_numbers);
+// Start outputting the table
+echo "<table border='1' style='width: 100%; border-collapse: collapse;'>
+    <thead>
+        <tr>
+            <th style='padding: 10px; text-align: left;'>#</th>
+            <th style='padding: 10px; text-align: left;'>Phone Number</th>
+        </tr>
+    </thead>
+    <tbody>";
+
+if (!empty($phone_numbers)) {
+    $counter = 1;
+    foreach ($phone_numbers as $phone_number) {
+        echo "<tr>
+            <td style='padding: 10px;'>$counter</td>
+            <td style='padding: 10px;'>$phone_number</td>
+        </tr>";
+        $counter++;
+    }
+} else {
+    echo "<tr>
+        <td colspan='2' style='padding: 10px; text-align: center;'>No phone numbers found</td>
+    </tr>";
+}
+
+echo "</tbody>
+</table>";
 ?>
+
 
