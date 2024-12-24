@@ -64,41 +64,45 @@ curl_close($ch);
 // Decode the JSON response
 $orders = json_decode($response, true);
 
-// Extract phone numbers
-$phone_numbers = [];
-foreach ($orders as $order) {
-    if (!empty($order['billing']['phone'])) {
-        $phone_numbers[] = $order['billing']['phone'];
-    }
-}
-
 // Start outputting the table
 echo "<table border='1' style='width: 100%; border-collapse: collapse;'>
     <thead>
         <tr>
             <th style='padding: 10px; text-align: left;'>#</th>
+            <th style='padding: 10px; text-align: left;'>First Name</th>
             <th style='padding: 10px; text-align: left;'>Phone Number</th>
+            <th style='padding: 10px; text-align: left;'>Product Name</th>
         </tr>
     </thead>
     <tbody>";
 
-if (!empty($phone_numbers)) {
+if (!empty($orders)) {
     $counter = 1;
-    foreach ($phone_numbers as $phone_number) {
+    foreach ($orders as $order) {
+        $first_name = $order['billing']['first_name'] ?? 'N/A';
+        $phone_number = $order['billing']['phone'] ?? 'N/A';
+        $products = [];
+        
+        // Fetch product names from the order
+        foreach ($order['line_items'] as $item) {
+            $products[] = $item['name'];
+        }
+        $product_names = implode(', ', $products);
+
         echo "<tr>
             <td style='padding: 10px;'>$counter</td>
+            <td style='padding: 10px;'>$first_name</td>
             <td style='padding: 10px;'>$phone_number</td>
+            <td style='padding: 10px;'>$product_names</td>
         </tr>";
         $counter++;
     }
 } else {
     echo "<tr>
-        <td colspan='2' style='padding: 10px; text-align: center;'>No phone numbers found</td>
+        <td colspan='4' style='padding: 10px; text-align: center;'>No data found</td>
     </tr>";
 }
 
 echo "</tbody>
 </table>";
 ?>
-
-
