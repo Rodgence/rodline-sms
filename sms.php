@@ -35,3 +35,44 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+<?php
+$consumer_key = 'ck_b3050299a18857eb3740eceee699c8cc46927486';
+$consumer_secret = 'cs_401bf55b89c12958f5faf52b9717f6ba6f898742';
+$store_url = 'https://rodline.shop/wp-json/wc/v3/orders';
+
+// Fetch only completed orders
+$params = [
+    'status' => 'completed',
+    'per_page' => 100 // Adjust as needed
+];
+
+$url = $store_url . '?' . http_build_query($params);
+
+$ch = curl_init($url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_USERPWD, "$consumer_key:$consumer_secret");
+
+$response = curl_exec($ch);
+
+if ($response === false) {
+    die('Error: ' . curl_error($ch));
+}
+
+curl_close($ch);
+
+// Decode the JSON response
+$orders = json_decode($response, true);
+
+// Extract phone numbers
+$phone_numbers = [];
+foreach ($orders as $order) {
+    if (!empty($order['billing']['phone'])) {
+        $phone_numbers[] = $order['billing']['phone'];
+    }
+}
+
+// Output phone numbers
+echo "Phone Numbers: " . implode(', ', $phone_numbers);
+?>
+
